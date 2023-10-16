@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: rgb(67, 67, 149);
+}
+
+.card{
+    width: 90%;
+    max-width: 480px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 239, 239);
+    margin: 50px auto 0px;
+}
+
+.heading{
+   
+    padding: 35px 20px;
+    color: rgb(26, 26, 114);
+    font-weight: 300;
+}
+
+.data{
+    padding: 0px 20px;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.data input{
+
+    border-radius: 25px;
+    border: none;
+    flex: 1;
+  
+  
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: 0;
+    padding: 10px 110px 10px 10px;
+    border-radius: 25px;
+    border: none;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    outline: 0;
+
+}
+
+.data button{
+    border-radius: 25px;
+    border: none;
+    flex: 1;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    outline: 0;
+    background-color: orange;
+   color: black;
+    margin-left: -65px;
+
+
+}
+
+.reminders{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 20px 5px 20px;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+.left input{
+    cursor: pointer;
+    
+}
+
+.left label{
+    margin-left: 5px;
+}
+
+.cross{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    color: red;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.text-through{
+    text-decoration-line: line-through ;
+}
+
